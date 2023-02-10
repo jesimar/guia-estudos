@@ -1,6 +1,6 @@
 # Guia da Linguagem Markdown
 
-**OBS:** Documentação gerada usando o ChatGPT com modificações próprias. 
+**OBS:** Parte desta documentação foi gerada usando a ferramenta de IA ChatGPT com diversas adaptações na escrita. 
 
 A linguagem Markdown é uma linguagem de marcação de texto simples que permite que você escreva documentos de forma legível e fácil de ler, usando uma sintaxe simples e intuitiva. Ela foi projetada para ser convertido em HTML e outros formatos de documentos com facilidade.
 
@@ -61,40 +61,46 @@ Você pode adicionar títulos e sub-títulos ao seu documento Markdown usando si
 #### Título de nível 4
 ##### Título de nível 5
 ###### Título de nível 6
-
+```
 
 **Lista Ordenadas:**
 
-Você pode criar uma lista ordenada colocando o número 1. no início da linha. Por exemplo:
+Você pode criar listas ordenadas colocando o número 1 seguido de ponto (.) no início da linha. Por exemplo:
 
+```
 1. Item 1
 1. Item 2
 1. Item 3
   1. Item 3a
   1. Item 3b
+```
 
 **Lista Não Ordenadas:**
 
-Você pode criar uma lista não ordenada colocando o asterisco (*) no início da linha. Por exemplo:
+Você pode criar listas não ordenadas colocando um asterisco (*) no início da linha. Por exemplo:
 
+```
 * Item 1
 * Item 2
 * Item 2a
 * Item 2b
+```
 
 **Tabelas:**
 
-Uma tabela pode ser conseguida utilizando de forma estrutura o símbolo pipe (|). Por exemplo:
+Você pode criar uma tabela utilizando de forma estrutura o símbolo pipe (|) como separador das células. Por exemplo:
 
+```
 | Coluna A  | Coluna B |
 | --------- |:--------:|
 | Valor 1   | Valor X  |
 | Valor 2   | Valor Y  |
 | Valor 3   | Valor Z  |
+```
 
 **Blocos de código:**
 
-Um bloco de código pode ser conseguido utilizando três aspas simples (tem que abrir e fechar essa estrutura). Por exemplo:
+Você pode criar um bloco de código utilizando três aspa simples invertida seguidas ("```") no início e no final do código. Por exemplo:
 
 ```
 def hello_world():
@@ -105,19 +111,20 @@ hello_world()
 
 **Código em linha:**
 
-Um código em linha pode ser conseguido utilizando uma aspa simples (tem que abrir e fechar essa estrutura). Por exemplo:
+Você pode criar um código em linha utilizando uma aspa simples invertida ("`") no início e no final do código. Por exemplo:
 
 `print("Olá, Mundo!")`.
 
 
-
 **Citação:**
 
-Para inserir uma citação utilize o símbolo maior (>) no início da linha. 
+Você pode inserir uma citação utilize o símbolo maior (>) no início da linha. Por exemplo: 
 
+```
 > Como dito por Steve Jobs:
 >
 >> "Design é tão simples, quanto difícil. É o que separa o bom do ótimo."
+```
 
 ## Ferramentas para Markdown
 
