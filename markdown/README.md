@@ -100,7 +100,7 @@ Você pode criar uma tabela utilizando de forma estrutura o símbolo pipe (|) co
 
 **Blocos de código:**
 
-Você pode criar um bloco de código utilizando três aspa simples invertida seguidas ("```") no início e no final do código. Por exemplo:
+Você pode criar um bloco de código utilizando três crases seguidas ("```") no início e no final do código. Por exemplo:
 
 ```
 def hello_world():
@@ -111,7 +111,7 @@ hello_world()
 
 **Código em linha:**
 
-Você pode criar um código em linha utilizando uma aspa simples invertida ("`") no início e no final do código. Por exemplo:
+Você pode criar um código em linha utilizando uma crase ("`") no início e no final do código. Por exemplo:
 
 `print("Olá, Mundo!")`.
 
@@ -130,3 +130,4 @@ Você pode inserir uma citação utilize o símbolo maior (>) no início da linh
 
 O site [markdown live preview](https://markdownlivepreview.com/) é uma boa ferramenta para testar e visualizar a saída gerada por determinado código escrito em Markdown.
 
+O site [markdown guide](https://www.markdownguide.org/tools/) lista um conjunto de outros sites e ferramentas que suportam a linguagem Markdown. 
