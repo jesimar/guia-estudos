@@ -1,4 +1,6 @@
 
+https://gitter.im/guia-estudos/community
+
 
 
 ```mermaid
@@ -41,3 +43,8 @@ https://mermaid-js.github.io/mermaid/#/
 https://mermaid-js.github.io/mermaid-live-editor/
 
 https://github.com/mermaidjs/mermaid.cli
+
+
+Software para adicionar aplicações como serviços do Windows:
+
+Windows Service Wrapper: https://github.com/winsw/winsw
