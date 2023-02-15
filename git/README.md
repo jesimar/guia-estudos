@@ -8,7 +8,7 @@ O Git foi criado por Linus Torvalds, o mesmo criador do sistema operacional Linu
 
 ## Exemplos de Comandos do Git:
 
-1. `git init`: Inicializa um novo repositório Git em um diretório existente. 
+1. **git init**: Inicializa um novo repositório Git em um diretório existente. 
 
 Exemplo: 
 
@@ -18,7 +18,7 @@ $ cd my-project
 $ git init
 ```
 
-2. `git clone`: Clona um repositório existente em seu computador.
+2. **git clone**: Clona um repositório existente em seu computador.
 
 Exemplo: 
 
@@ -26,7 +26,7 @@ Exemplo:
 $ git clone https://github.com/user/repo.git
 ```
 
-3. `git add`: Adiciona arquivos à área de stage (área de preparação para o próximo commit).
+3. **git add**: Adiciona arquivos à área de stage (área de preparação para o próximo commit).
 
 Exemplo: 
 
@@ -34,7 +34,7 @@ Exemplo:
 $ git add file1.txt file2.txt
 ```
 
-4. `git commit`: Confirma as alterações no histórico do repositório.
+4. **git commit**: Confirma as alterações no histórico do repositório.
 
 Exemplo: 
 
@@ -42,7 +42,7 @@ Exemplo:
 $ git commit -m "Adicionando arquivos file1.txt e file2.txt"
 ```
 
-5. `git status`: Exibe o estado atual do repositório, incluindo quais arquivos foram modificados e não foram adicionados ao stage.
+5. **git status**: Exibe o estado atual do repositório, incluindo quais arquivos foram modificados e não foram adicionados ao stage.
 
 Exemplo: 
 
@@ -50,7 +50,7 @@ Exemplo:
 $ git status
 ```
 
-6. `git diff`: Mostra as diferenças entre as versões atual e anterior de um arquivo.
+6. **git diff**: Mostra as diferenças entre as versões atual e anterior de um arquivo.
 
 Exemplo: 
 
@@ -58,7 +58,7 @@ Exemplo:
 $ git diff file1.txt
 ```
 
-7. `git log`: Mostra o histórico de commits no repositório.
+7. **git log**: Mostra o histórico de commits no repositório.
 
 Exemplo: 
 
@@ -66,7 +66,7 @@ Exemplo:
 $ git log
 ```
 
-8. `git branch`: Gerencia ramificações (branches) em um repositório Git.
+8. **git branch**: Gerencia ramificações (branches) em um repositório Git.
 
 Exemplo: 
 
@@ -74,7 +74,7 @@ Exemplo:
 $ git branch new-feature
 ```
 
-9. `git checkout`: Alterna entre diferentes ramificações ou recupera versões antigas de arquivos.
+9. **git checkout**: Alterna entre diferentes ramificações ou recupera versões antigas de arquivos.
 
 Exemplo: 
 
@@ -82,7 +82,7 @@ Exemplo:
 $ git checkout new-feature
 ```
 
-10. `git merge`: Mescla duas ou mais ramificações em um único repositório.
+10. **git merge**: Mescla duas ou mais ramificações em um único repositório.
 
 Exemplo: 
 
@@ -90,7 +90,7 @@ Exemplo:
 $ git merge new-feature
 ```
 
-11. `git pull`: Atualiza o repositório local com as últimas alterações do repositório remoto.
+11. **git pull**: Atualiza o repositório local com as últimas alterações do repositório remoto.
 
 Exemplo: 
 
@@ -98,7 +98,7 @@ Exemplo:
 $ git pull origin master
 ```
 
-12. `git push`: Envia as alterações do repositório local para o repositório remoto.
+12. **git push**: Envia as alterações do repositório local para o repositório remoto.
 
 Exemplo: 
 
